@@ -3,17 +3,14 @@
 @import "theme";
 
 nav {
-  position: absolute;
-  top: 0px;
+  background-color: $thistle;
   left: 0px;
-  right: 0px;
-  width: 100%;
-  z-index: 99;
-  height: 72px;
   padding-left: 10px;
   padding-right: 10px;
-  margin: auto;
-  background-color: $thistle;
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  z-index: 99;
 }
 
 #logo {
@@ -21,17 +18,83 @@ nav {
 }
 
 #logo-image {
-  height: calc(100% - 10px);
-}
-
-#burger-menu {
-  right: 0px;
-  top: 0px;
+  height: 50px;
   width: 50px;
 }
 
+#burger-menu {
+  float: right;
+  padding-top: 15px;
+  width: 50px;
+}
+
+.burger-line {
+  width: 27px;
+  background-color: rgb(53, 63, 82);
+  height: 2px;
+  margin: auto auto 6px;
+}
+
+.cross-line {
+  position: absolute;
+  width: 24px;
+  height: 2px;
+  top: 50%;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgb(53, 63, 82);
+}
+
+.cross-line-1 {
+  transform: rotate(-45deg);
+}
+
+.cross-line-2 {
+  transform: rotate(45deg);
+}
+
 #menu {
+  visibility: hidden;
+  position: absolute;
   width: 100%;
+  left: 0;
+  background-color: $thistle;
+}
+
+#menu-cross {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+}
+
+.menu-item-content {
+  width: 100%;
+  text-transform: uppercase;
+  line-height: 1.5;
+  letter-spacing: 2;
+  color: black;
+  text-decoration: none;
+}
+
+#menu-item {
+  list-style-type: none;
+  padding: 5px;
+  text-align: center;
+}
+
+#menu-list {
+  padding: 0;
+}
+
+#nav-toggle {
+  display: none;
+}
+
+#nav-toggle:checked + div {
+  visibility: visible;
 }
 
 body {

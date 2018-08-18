@@ -1,16 +1,13 @@
 ---
 title: Home
 layout: default
-logo: assets/images/logo.svg
-icons:
+logo: assets/images/logo.png
+menu:
   - href: "https://twitter.com/sadir_"
-    id: twitter
-    src: assets/icons/twitter.svg
+    text: twitter
   - href: "https://www.linkedin.com/in/morgan-sadr-hashemi/"
-    id: linkedin
-    src: assets/icons/linkedin.svg
+    text: linkedin
   - href: "https://github.com/sadir"
-    id: github
-    src: assets/icons/github.svg
+    text: github
 
 ---

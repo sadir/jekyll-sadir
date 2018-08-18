@@ -1,8 +1,35 @@
 <link rel="stylesheet" href="assets/sass/nav.css">
 <header>
   <nav>
-    <a id='logo' href="/">
-      <img id='logo-image' src={{ page.logo }} />
-    </a>
+    <div id='logo'>
+      <a href="/">
+        <img id='logo-image' src={{ page.logo }} />
+      </a>
+    </div>
+    <div id="burger-menu">
+      <label for="nav-toggle">
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+        <div class="burger-line"></div>
+      </label>
+    </div>
+    <input type="checkbox" id="nav-toggle" />
+    <div id="menu">
+      <div id="menu-cross">
+        <label for='nav-toggle'>
+          <div class="cross-line cross-line-1"></div>
+          <div class="cross-line cross-line-2"></div>
+        </label>
+      </div>
+      <ul id='menu-list'>
+        {% for menu_item in page.menu %}
+          <li id='menu-item'>
+            <a class="menu-item-content" href={{ menu_item.href }}>
+              {{ menu_item.text }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
   </nav>
 </header>
