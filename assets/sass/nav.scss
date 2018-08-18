@@ -1,0 +1,39 @@
+---
+---
+@import "theme";
+
+nav {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  z-index: 99;
+  height: 72px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+  background-color: $thistle;
+}
+
+#logo {
+  float: left;
+}
+
+#logo-image {
+  height: calc(100% - 10px);
+}
+
+#burger-menu {
+  right: 0px;
+  top: 0px;
+  width: 50px;
+}
+
+#menu {
+  width: 100%;
+}
+
+body {
+  margin-top: 100px;
+}
