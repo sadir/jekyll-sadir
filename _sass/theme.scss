@@ -1,5 +1,15 @@
-$aquafresh: hsl(144%, 66%, 92%);
-$bisque: hsl(32%, 92%, 81%);
-$plum: hsl(339%, 9%, 68%);
-$thistle: hsl(327%, 15%, 72%);
-$light_steel: hsl(245%, 15%, 48%);
+$aquafresh: (
+  medium: hsl(144%, 66%, 92%),
+);
+$bisque: (
+  medium: hsl(32%, 92%, 81%),
+);
+$plum: (
+  medium: hsl(339%, 9%, 68%),
+);
+$thistle: (
+  medium: hsl(327%, 15%, 72%),
+);
+$light_steel: (
+  medium: hsl(245%, 15%, 48%),
+);

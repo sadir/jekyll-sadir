@@ -3,7 +3,7 @@
 @import "theme";
 
 nav {
-  background-color: $thistle;
+  background-color: map-get($thistle, medium);
   left: 0px;
   padding-left: 10px;
   padding-right: 10px;
@@ -59,7 +59,7 @@ nav {
   position: absolute;
   width: 100%;
   left: 0;
-  background-color: $thistle;
+  background-color: map-get($thistle, medium);
 }
 
 #menu-cross {
