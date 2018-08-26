@@ -11,6 +11,8 @@ nav {
   right: 0px;
   top: 0px;
   z-index: 99;
+  border-bottom-style: outset;
+  border-bottom-color: map-get($thistle, dark); 
 }
 
 #logo {
@@ -59,7 +61,11 @@ nav {
   position: absolute;
   width: 100%;
   left: 0;
-  background-color: map-get($thistle, medium);
+  background-color: map-get($thistle, light);
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-style: outset;
+  border-bottom-color: map-get($thistle, medium); 
 }
 
 #menu-cross {
