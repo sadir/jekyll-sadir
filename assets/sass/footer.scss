@@ -3,7 +3,7 @@
 @import "theme";
 
 footer {
-  background-color: map-get($thistle, medium);
+  background-color: map-get($bisque, medium);
   bottom: 0px;
   left: 0px;
   padding-left: 10px;
@@ -11,7 +11,7 @@ footer {
   position: absolute;
   right: 0px;
   border-top-style: outset;
-  border-top-color: map-get($thistle, light); 
+  border-top-color: map-get($bisque, light); 
   padding-top: 5px;
 }
 

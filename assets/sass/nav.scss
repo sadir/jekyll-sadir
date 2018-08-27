@@ -3,7 +3,7 @@
 @import "theme";
 
 nav {
-  background-color: map-get($thistle, medium);
+  background-color: map-get($bisque, medium);
   left: 0px;
   padding-left: 10px;
   padding-right: 10px;
@@ -12,7 +12,7 @@ nav {
   top: 0px;
   z-index: 99;
   border-bottom-style: outset;
-  border-bottom-color: map-get($thistle, dark); 
+  border-bottom-color: map-get($bisque, dark); 
 }
 
 #logo {
@@ -61,11 +61,11 @@ nav {
   position: absolute;
   width: 100%;
   left: 0;
-  background-color: map-get($thistle, light);
+  background-color: map-get($bisque, light);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-style: outset;
-  border-bottom-color: map-get($thistle, medium); 
+  border-bottom-color: map-get($bisque, medium); 
 }
 
 #menu-cross {

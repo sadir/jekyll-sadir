@@ -1,11 +1,17 @@
 $aquafresh: (
+  light: hsl(144%, 66%, 97%),
   medium: hsl(144%, 66%, 92%),
+  dark: hsl(144%, 66%, 72%),
 );
 $bisque: (
+  light: hsl(32%, 92%, 90%),
   medium: hsl(32%, 92%, 81%),
+  dark: hsl(32%, 92%, 61%),
 );
 $plum: (
+  light: hsl(339%, 9%, 88%),
   medium: hsl(339%, 9%, 68%),
+  dark: hsl(339%, 9%, 48%),
 );
 $thistle: (
   light: hsl(327%, 15%, 92%),
@@ -13,5 +19,7 @@ $thistle: (
   dark: hsl(327%, 15%, 52%),
 );
 $light_steel: (
+  light: hsl(245%, 15%, 68%),
   medium: hsl(245%, 15%, 48%),
+  dark: hsl(245%, 15%, 28%),
 );
