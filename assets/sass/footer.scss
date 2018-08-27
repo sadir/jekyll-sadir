@@ -1,0 +1,39 @@
+---
+---
+@import "theme";
+
+footer {
+  background-color: map-get($thistle, medium);
+  bottom: 0px;
+  left: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+  right: 0px;
+  border-top-style: outset;
+  border-top-color: map-get($thistle, light); 
+  padding-top: 5px;
+}
+
+.footer-icons {
+  text-align: center;
+}
+
+.footer-icon {
+  text-decoration: none;
+}
+
+.footer-icon svg {
+  width: 25px;
+  color: black;
+}
+
+footer p {
+  margin: 0;
+  font-size: 10px;
+  text-align: center;
+}
+
+body {
+  margin-bottom: 50px;
+}

@@ -12,3 +12,8 @@ defaults:
           text: linkedin
         - href: "https://github.com/sadir"
           text: github
+
+twitter_url: https://twitter.com/sadir_
+linkedin_url: https://www.linkedin.com/in/morgan-sadr-hashemi/
+github_url: https://github.com/sadir
+rss_feed: true

@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="assets/sass/footer.css">
+<footer>
+    <div class="footer-icons">
+      {%- if site.twitter_url -%}
+        <a class="footer-icon" href="{{ site.twitter_url }}">
+          {% include twitter-square-brands.svg %}
+        </a>
+      {%- endif -%}
+      {%- if site.linkedin_url -%}
+        <a class="footer-icon" href="{{ site.linkedin_url }}">
+          {% include linkedin-brands.svg %}
+        </a>
+      {%- endif -%}
+      {%- if site.github_url -%}
+        <a class="footer-icon" href="{{ site.github_url }}">
+          {% include github-square-brands.svg %}
+        </a>
+      {%- endif -%}
+      {%- if site.rss_feed -%}
+        <a class="footer-icon" href="{{ feed.xml }}">
+          {% include rss-square-solid.svg %}
+        </a>
+      {%- endif -%}
+    </div>
+    <p>Feedback welcome via github issues</p>
+</footer>
