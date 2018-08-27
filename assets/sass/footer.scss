@@ -2,17 +2,15 @@
 ---
 @import "theme";
 
-footer {
+#footer {
   background-color: map-get($bisque, medium);
-  bottom: 0px;
-  left: 0px;
   padding-left: 10px;
   padding-right: 10px;
-  position: absolute;
-  right: 0px;
+  position: relative;
   border-top-style: outset;
   border-top-color: map-get($bisque, light); 
   padding-top: 5px;
+  margin-top: 10px;
 }
 
 .footer-icons {
@@ -28,12 +26,8 @@ footer {
   color: black;
 }
 
-footer p {
+#footer p {
   margin: 0;
   font-size: 10px;
   text-align: center;
-}
-
-body {
-  margin-bottom: 50px;
 }
