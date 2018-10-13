@@ -11,6 +11,18 @@ header {
   z-index: 99;
   border-bottom-style: outset;
   border-bottom-color: map-get($baby_blue, dark); 
+  animation-delay: 150ms;
+  animation-duration: 1s;
+  animation-name: slide_down;
+}
+
+@keyframes slide_down {
+  from {
+    top: -50px;
+  }
+  to {
+    top: 0;
+  }
 }
 
 nav {
