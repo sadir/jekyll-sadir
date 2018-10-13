@@ -1,0 +1,27 @@
+---
+---
+@import "theme";
+
+.article:nth-child(4n+1) {
+  background-color: map-get($bisque, medium);
+  border-color: map-get($bisque, dark);
+}
+
+.article:nth-child(4n+2) {
+  background-color: map-get($canary, medium);
+  border-color: map-get($canary, dark);
+}
+
+.article:nth-child(4n+3) {
+  background-color: map-get($thistle, medium);
+  border-color: map-get($thistle, dark);
+}
+
+.article:nth-child(4n+4) {
+  background-color: map-get($moss, medium);
+  border-color: map-get($moss, dark);
+}
+
+.article {
+  margin-top: 10px;
+}

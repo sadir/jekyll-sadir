@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: page
+layout: home
 ---
 
 # Morgan's blog

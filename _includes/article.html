@@ -1,0 +1,17 @@
+<article class="article">
+  <header class="article-header">
+    <h3>
+      <a class="article-title" href="{{ article.url }}" rel="bookmark">
+        {{ article.title }}
+      </a>
+    </h3>
+    {% if article.image.thumbnail %}
+      <img class="article-image" src="{{ article_image }}" alt="">
+    {% endif %}
+  </header>
+  <div class="article-excerpt">
+    {% if article.excerpt %}
+      {{ article.excerpt | markdownify }}
+    {% endif %}
+  </div>
+</article>
