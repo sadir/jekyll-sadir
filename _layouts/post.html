@@ -2,4 +2,9 @@
 layout: default
 ---
 
+<header class="page-header">
+  {% assign title = page.title | markdownify | strip_html %}
+  <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+</header>
+
 {{ content }}

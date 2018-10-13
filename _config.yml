@@ -4,7 +4,7 @@ defaults:
       path: ""
     values:
       layout: default
-      logo: assets/images/logo.png
+      logo: "/assets/images/logo.png"
       menu:
         - href: "https://twitter.com/sadir_"
           text: twitter
