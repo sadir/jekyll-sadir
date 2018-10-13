@@ -3,10 +3,6 @@ title: Home
 layout: home
 ---
 
-# Morgan's blog
-
-Development team lead at Nested. I like tech, gym and food.
-
 ## Heading 2
 
 Some text

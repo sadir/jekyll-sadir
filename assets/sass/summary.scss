@@ -1,0 +1,19 @@
+---
+---
+@import "theme";
+
+.summary-title {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.summary-description {
+  text-align: center;
+}
+
+.summary {
+  border-width: 0 0 1px 0;
+  border-color: map-get($baby_blue, medium);
+  border-style: double;
+}
