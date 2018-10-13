@@ -3,12 +3,12 @@
 @import "theme";
 
 #footer {
-  background-color: map-get($bisque, medium);
+  background-color: map-get($baby_blue, medium);
   padding-left: 10px;
   padding-right: 10px;
   position: relative;
   border-top-style: outset;
-  border-top-color: map-get($bisque, light); 
+  border-top-color: map-get($baby_blue, light); 
   padding-top: 5px;
   margin-top: 10px;
 }

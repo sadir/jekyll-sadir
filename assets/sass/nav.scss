@@ -7,10 +7,10 @@ header {
   top: 0px;
   left: 0px;
   position: absolute;
-  background-color: map-get($bisque, medium);
+  background-color: map-get($baby_blue, medium);
   z-index: 99;
   border-bottom-style: outset;
-  border-bottom-color: map-get($bisque, dark); 
+  border-bottom-color: map-get($baby_blue, dark); 
 }
 
 nav {
@@ -64,11 +64,11 @@ nav {
   position: absolute;
   width: 100%;
   left: 0;
-  background-color: map-get($bisque, light);
+  background-color: map-get($baby_blue, light);
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-bottom-style: outset;
-  border-bottom-color: map-get($bisque, medium); 
+  border-bottom-color: map-get($baby_blue, medium); 
 }
 
 #menu-cross {
