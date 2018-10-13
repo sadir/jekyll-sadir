@@ -18,7 +18,7 @@ header {
 
 @keyframes slide_down {
   from {
-    top: -50px;
+    top: -150px;
   }
   to {
     top: 0;
@@ -116,6 +116,8 @@ nav {
 
 #nav-toggle:checked + div {
   visibility: visible;
+  animation-duration: 1s;
+  animation-name: slide_down;
 }
 
 body {
