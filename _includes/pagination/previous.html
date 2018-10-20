@@ -1,0 +1,17 @@
+{% if paginator.previous_page %}
+  <li class="pagination-list-item">
+    <a href="{{ paginator.previous_page_path | relative_url }}">
+      <button>
+        Prev
+      </button>
+    </a>
+  </li>
+{% else %}
+  <li class="pagination-list-item">
+    <a href="#">
+      <button disabled>
+        Prev
+      </button>
+    </a>
+  </li>
+{% endif %}

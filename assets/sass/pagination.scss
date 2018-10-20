@@ -1,0 +1,28 @@
+---
+---
+@import "theme";
+@import "typography";
+
+.pagination {
+  height: 70px;
+  justify-content: center;
+}
+
+.pagination-navigation {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.pagination-list-item {
+  margin: 0 5px;
+  list-style: none;
+  display: inline;
+}
+
+.pagination-list-item-selected {
+  font-size: 15px;
+  font-weight: bold;
+}

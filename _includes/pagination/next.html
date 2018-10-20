@@ -1,0 +1,17 @@
+{% if paginator.next_page %}
+  <li class="pagination-list-item">
+    <a href="{{ paginator.next_page_path | relative_url }}">
+      <button>
+        Next
+      </button>
+    </a>
+  </li>
+{% else %}
+  <li class="pagination-list-item">
+    <a href="#">
+      <button class="disabled">
+        Next
+      </button>
+    </a>
+  </li>
+{% endif %}
