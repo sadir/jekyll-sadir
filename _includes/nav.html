@@ -6,25 +6,36 @@
         <img id='logo-image' src={{ page.logo }} />
       </a>
     </div>
-    <div id="burger-menu">
-      <label for="nav-toggle">
-        <div class="burger-line"></div>
-        <div class="burger-line"></div>
-        <div class="burger-line"></div>
-      </label>
+    <div class="menu-items">
+      {% for menu_item in page.menu %}
+        <div class='menu-item'>
+          <a class="menu-item-content" href={{ menu_item.href }}>
+            {{ menu_item.text }}
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+    <div id="mobile-menu-condensed">
+      <div id="burger-menu">
+        <label for="nav-toggle">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </label>
+      </div>
     </div>
     <input type="checkbox" id="nav-toggle" />
-    <div id="menu">
+    <div id="mobile-menu-opened">
       <div id="menu-cross">
         <label for='nav-toggle'>
           <div class="cross-line cross-line-1"></div>
           <div class="cross-line cross-line-2"></div>
         </label>
       </div>
-      <ul id='menu-list'>
+      <ul class='mobile-menu-list'>
         {% for menu_item in page.menu %}
-          <li id='menu-item'>
-            <a class="menu-item-content" href={{ menu_item.href }}>
+          <li class='mobile-menu-item'>
+            <a class="mobile-menu-item-content" href={{ menu_item.href }}>
               {{ menu_item.text }}
             </a>
           </li>
