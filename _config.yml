@@ -31,6 +31,7 @@ github_url: https://github.com/sadir
 rss_feed: true
 
 plugins:
+  - jekyll-feed
+  - jekyll-gist
   - jekyll-paginate
   - jekyll-sitemap
-  - jekyll-gist
