@@ -1,3 +1,4 @@
+author: Morgan Sadr-Hashemi
 title: Morgan's blog
 description: >-
   Development Team Lead at Nested. I like tech, gym and food.
@@ -34,4 +35,5 @@ plugins:
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
+  - jekyll-seo-tag
   - jekyll-sitemap
