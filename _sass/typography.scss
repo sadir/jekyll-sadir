@@ -8,7 +8,7 @@ h1 {
   font-size: 2em;
 }
 
-a, em, h1, h2, h3, h4, h5, h6, p, span, time {
+a, em, h1, h2, h3, h4, h5, h6, p, span, time, ul, ol, li {
   color: map-get($thistle, extra-dark);
   font-family: monospace;
 }
