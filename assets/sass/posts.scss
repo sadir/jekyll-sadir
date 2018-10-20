@@ -10,18 +10,15 @@
   border-width: 1px 0 0 0;
   border-color: map-get($baby_blue, dark);
   border-style: double;
+  margin-left: -30px;
+  margin-right: -30px;
 }
 
 .articles {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  flex-direction: column;
 }
 
-.article {
-  margin-top: 10px;
-  border-color: map-get($baby_blue, light);
-  width: 260px;
-  max-width: 260px;
+.article:nth-child(2n+1) {
+  background-color: map-get($baby_blue, extra-light);
 }
