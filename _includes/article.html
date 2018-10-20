@@ -14,4 +14,23 @@
       {{ article.excerpt | markdownify }}
     {% endif %}
   </div>
+  <div class="article-more-link">
+    <a href="{{ article.url }}">Read More</a>
+  </div>
+  <div class="article-read-time">
+    {% assign words = article.content | strip_html | number_of_words %}
+    <span class="read-time">
+      {%- if words < 200 -%}
+      ~1 min read
+      {%- else -%}
+      {{ words | divided_by:200 }} min read
+      {%- endif -%}
+    </span>
+    {% if article.date %}
+      <time class="article-date" datetime="{{ entry.date | date_to_xmlschema }}">
+        {%- assign date_format = "%B %-d, %Y" -%}
+        {{ entry.date | date: date_format }}
+      </time>
+    {% endif %}
+  </footer>
 </article>
