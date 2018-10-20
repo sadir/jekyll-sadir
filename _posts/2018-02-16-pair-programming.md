@@ -9,4 +9,8 @@ crosspost_to_medium: true
 
 In this post, I'll explore pair programming, the roles, the tradeoffs, and how Github's coauthors compliment the pairing workflow.
 
+With this theme you can use emojis :wave:
+
 {% gist c08ee0f2726fd0e3909d test.md %}
+
+
