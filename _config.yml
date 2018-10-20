@@ -33,3 +33,4 @@ rss_feed: true
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
+  - jekyll-gist
