@@ -12,12 +12,12 @@ defaults:
       layout: default
       logo: "/assets/images/logo.png"
       menu:
-        - href: "https://twitter.com/sadir_"
-          text: twitter
-        - href: "https://www.linkedin.com/in/morgan-sadr-hashemi/"
-          text: linkedin
-        - href: "https://github.com/sadir"
-          text: github
+        - href: "/about"
+          text: About
+        - href: "/cv"
+          text: CV
+        - href: "https://github.com/sadir/sadir-jekyll"
+          text: Get this theme
 
 twitter_url: https://twitter.com/sadir_
 linkedin_url: https://www.linkedin.com/in/morgan-sadr-hashemi/

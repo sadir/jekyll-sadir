@@ -9,7 +9,6 @@ html {
 
 body {
   position: relative;
-  margin: 0px;
   background-color: map-get($baby_blue, light);
   max-width: 1024px;
   @media only screen and (min-width: 1024px) {
@@ -22,6 +21,7 @@ section {
   background-color: white;
   border-radius: 5px;
   box-shadow: 10px 10px 10px 0 rgba(34, 34, 34, 0.1);
+  margin-bottom: 40px;
   margin-left: 20px;
   margin-right: 20px;
   max-width: 780px;
@@ -37,13 +37,14 @@ section {
 }
 
 button {
-  background-color: unset;
+  background-color: white;
   border-radius: 5px;
   border: none;
   box-shadow: 0 2px 4px 0 rgba(34, 34, 34, 0.1);
   cursor: pointer;
   display: inline-block;
   font-size: 13px;
+  font-weight: bold;
   letter-spacing: 1px;
   min-height: 10px;
   min-width: 20px;
