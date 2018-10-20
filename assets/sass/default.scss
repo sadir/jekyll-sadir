@@ -3,10 +3,19 @@
 @import "theme";
 @import "typography";
 
+html {
+  background-color: map-get($baby_blue, extra-light);
+}
+
 body {
   position: relative;
   margin: 0px;
   background-color: map-get($baby_blue, light);
+  max-width: 1024px;
+  @media only screen and (min-width: 1024px) {
+    margin-left: calc((100vw - 1024px) / 2);
+    margin-right: calc((100vw - 1024px) / 2);
+  }
 }
 
 section {
@@ -15,4 +24,9 @@ section {
   background-color: white;
   padding: 10px;
   border-radius: 5px;
+  max-width: 780px;
+  @media only screen and (min-width: 1024px) {
+    margin-left: calc((100% - 780px) / 2);
+    margin-right: calc((100% - 780px) / 2);
+  }
 }

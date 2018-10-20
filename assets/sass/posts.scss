@@ -2,6 +2,16 @@
 ---
 @import "theme";
 
+.articles {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 .article {
-  border-color: map-get($baby_blue, dark);
+  margin-top: 10px;
+  border-color: map-get($baby_blue, light);
+  width: 260px;
+  max-width: 260px;
 }
