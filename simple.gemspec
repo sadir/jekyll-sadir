@@ -1,12 +1,12 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "simple"
+  spec.name          = "jekyll-sadir"
   spec.version       = "0.1.0"
   spec.authors       = ["Morgan Sadr-Hashemi"]
   spec.email         = ["morgan.sadr@gmail.com"]
 
-  spec.summary       = "A simple jekyll theme."
+  spec.summary       = "A jekyll theme for my personal blog."
   spec.homepage      = "https://sadir.github.io"
   spec.license       = "MIT"
 
