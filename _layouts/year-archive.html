@@ -1,0 +1,16 @@
+---
+  layout: page
+---
+
+<link rel="stylesheet" href="/assets/sass/posts.css">
+<link rel="stylesheet" href="/assets/sass/article.css">
+<div class="posts-wrapper">
+  <h2 class="posts-title">
+    Archive of posts from {{ page.date | date: "%Y" }}
+  </h2>
+  <div class="articles">
+    {%- for article in page.posts -%}
+      {% include article.html %}
+    {%- endfor -%}
+  </div>
+</div>

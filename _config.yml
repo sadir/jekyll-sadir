@@ -5,6 +5,19 @@ description: >-
 baseurl: ""
 url: "https://sadir.github.io/"
 
+jekyll-archives:
+  enabled: all
+  layouts:
+    year: year-archive
+    month: month-archive
+    day: day-archive
+    tag: tag-archive-layout
+  permalinks:
+    year: '/archives/year/:year/'
+    month: '/archives/year/:year/month/:month/'
+    day: '/archives/year/:year/month/:month/day/:day/'
+    tag: '/archives/tag/:name/'
+
 logo: "/assets/images/logo.png"
 menu:
   - href: "/about"
@@ -34,6 +47,7 @@ github_url: https://github.com/sadir
 rss_feed: true
 
 plugins:
+  - jekyll-archives
   - jekyll-feed
   - jekyll-gist
   - jekyll-paginate
