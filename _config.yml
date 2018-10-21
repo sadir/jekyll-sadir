@@ -6,13 +6,15 @@ baseurl: ""
 url: "https://sadir.github.io/"
 
 jekyll-archives:
-  enabled: all
+  enabled: "all"
   layouts:
-    year: year-archive
-    month: month-archive
+    category: tag-archive-layout
     day: day-archive
+    month: month-archive
     tag: tag-archive-layout
+    year: year-archive
   permalinks:
+    category: '/archives/category/:name/'
     year: '/archives/year/:year/'
     month: '/archives/year/:year/month/:month/'
     day: '/archives/year/:year/month/:month/day/:day/'

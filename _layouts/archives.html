@@ -1,0 +1,23 @@
+---
+  layout: page
+---
+
+<link rel="stylesheet" href="/assets/sass/archives.css">
+<div class="archives-wrapper">
+  <h2 class="archives-title">
+    Available archives
+  </h2>
+  <ul>
+  {% for archive in site.archives %}
+    {% if archive.type == "category" %}
+      <li class="archives-list-item">
+        <a href="{{ archive.url }}">{{ archive.title }}</a>
+      </li>
+    {% else %}
+      <li class="archives-list-item">
+        <a href="{{ archive.url }}">{{ archive.url | replace: "/archives/", "" }}</a>
+      </li>
+    {% endif %}
+  {% endfor %}
+  </ul>
+</div>
