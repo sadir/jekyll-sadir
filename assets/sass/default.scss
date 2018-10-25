@@ -78,3 +78,7 @@ button:disabled {
   cursor: not-allowed;
   background-color: map-get($thistle, extra-dark);
 }
+
+img {
+  max-width: 100%;
+}
