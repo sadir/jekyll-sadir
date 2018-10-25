@@ -8,10 +8,10 @@ url: "https://sadir.github.io/"
 jekyll-archives:
   enabled: "all"
   layouts:
-    category: tag-archive-layout
+    category: archive
     day: day-archive
     month: month-archive
-    tag: tag-archive-layout
+    tag: archive
     year: year-archive
   permalinks:
     category: '/archives/category/:name/'
@@ -28,6 +28,10 @@ menu:
     text: CV
   - href: "/posts"
     text: Posts
+  - href: "/more"
+    text: More
+  - href: "/another-one"
+    text: DJ Khaled
   - href: "https://github.com/sadir/sadir-jekyll"
     text: Get this theme
 

@@ -77,6 +77,9 @@ nav {
 }
 
 #mobile-menu-condensed {
+  @media only screen and (min-width: 720px) {
+    display: none;
+  }
   display: flex;
   justify-content: flex-end;
   width: 100%;
