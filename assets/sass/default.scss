@@ -82,3 +82,8 @@ button:disabled {
 img {
   max-width: 100%;
 }
+
+blockquote {
+  background-color: map-get($thistle, medium);
+  border-left: solid 0.5em map-get($thistle, dark);
+}
