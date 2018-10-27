@@ -2,7 +2,7 @@
   layout: page
 ---
 
-<link rel="stylesheet" href="/assets/sass/archives.css">
+<link rel="stylesheet" href={{ site.baseurl | append: "/assets/sass/archives.css" }}>
 <div class="archives-wrapper">
   <h2 class="archives-title">
     Available archives
@@ -11,11 +11,11 @@
   {% for archive in site.archives %}
     {% if archive.type == "category" %}
       <li class="archives-list-item">
-        <a href="{{ archive.url }}">{{ archive.title }}</a>
+        <a href="{{ site.baseurl | append: archive.url }}">{{ archive.title }}</a>
       </li>
     {% else %}
       <li class="archives-list-item">
-        <a href="{{ archive.url }}">{{ archive.url | replace: "/archives/", "" }}</a>
+        <a href="{{ site.baseurl | append: archive.url }}">{{ archive.url | replace: "/archives/", "" }}</a>
       </li>
     {% endif %}
   {% endfor %}

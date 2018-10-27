@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/assets/sass/pagination.css">
+<link rel="stylesheet" href={{ site.baseurl | append: "/assets/sass/pagination.css" }}>
 
 {%- for article in paginator.posts -%}
   {% include article.html %}
