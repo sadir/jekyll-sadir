@@ -89,5 +89,8 @@ blockquote {
 }
 
 table {
-  width: 100%;
+  width: calc(100% + 60px);
+  margin: 0 -30px;
+  table-layout: fixed;
+  word-wrap: break-word;
 }
