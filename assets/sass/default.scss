@@ -37,7 +37,7 @@ section {
 }
 
 button {
-  background-color: white;
+  background-color: map-get($thistle, light);
   border-radius: 5px;
   border: none;
   box-shadow: 0 2px 4px 0 rgba(34, 34, 34, 0.1);
