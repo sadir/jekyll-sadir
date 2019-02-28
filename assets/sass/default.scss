@@ -88,8 +88,19 @@ blockquote {
 }
 
 table {
-  width: calc(100% + 60px);
-  margin: 0 -30px;
+  width: calc(100% + 50px);
+  margin: 0 -25px;
   table-layout: fixed;
   word-wrap: break-word;
+  hyphens: auto;
+}
+
+thead {
+  background-color: map-get($thistle, medium);
+}
+
+td {
+  border-width: 1px;
+  border-style: solid;
+  border-color: map-get($thistle, dark);
 }
